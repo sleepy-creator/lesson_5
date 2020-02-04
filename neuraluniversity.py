@@ -16,7 +16,7 @@ def f():
 
 print("Теперь это число простое!")
 
-def f(num):
+def func(num):
     list = []
     step = 2
     while step * step <= num:
@@ -28,7 +28,7 @@ def f(num):
     if num > 1:
         list .append(num)
     return list
-print ("Список делителей числа: ",f(X))
+print ("Список делителей числа: ",func(X))
 
 def max(number):
     number_list = f(number)
